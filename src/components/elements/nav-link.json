@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_nav_links",
+  "info": {
+    "displayName": "Navigation Link",
+    "icon": "link",
+    "description": "Navigation link with category reference and external option"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "url": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

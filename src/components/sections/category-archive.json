@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_category_archives",
+  "info": {
+    "displayName": "Category Articles",
+    "icon": "layer",
+    "description": "Category archive layout with lead story, feed, most read sidebar, and ads"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "leadArticle": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "showMostRead": {
+      "type": "boolean",
+      "default": true
+    },
+    "postsPerPage": {
+      "type": "integer",
+      "default": 5
+    },
+    "sidebarAds": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::advertisement.advertisement"
+    }
+  }
+}

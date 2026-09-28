@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_promo_banners",
+  "info": {
+    "displayName": "Ads Banner",
+    "icon": "picture",
+    "description": "Branded campaign or promotional banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "targetUrl": {
+      "type": "string"
+    }
+  }
+}

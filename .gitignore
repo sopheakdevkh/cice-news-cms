@@ -96,6 +96,9 @@ logs
 results
 node_modules
 .node_history
+scripts
+database-export
+API_ENDPOINTS_GUIDE.md
 
 ############################
 # Package managers
@@ -122,6 +125,8 @@ coverage
 ############################
 
 .env
+.env.postgres.local
+.env.railway
 license.txt
 exports
 .strapi

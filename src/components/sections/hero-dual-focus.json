@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_hero_dual_focuses",
+  "info": {
+    "displayName": "Hero Dual Focus",
+    "icon": "layer-group",
+    "description": "Dual focus showcase with primary article and top articles list"
+  },
+  "options": {},
+  "attributes": {
+    "featuredArticle": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "sidebarTitle": {
+      "type": "string",
+      "default": "柬埔寨要闻"
+    },
+    "topArticles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
