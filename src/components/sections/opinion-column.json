@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_opinion_columns",
+  "info": {
+    "displayName": "Title Column",
+    "icon": "quote",
+    "description": "Opinion column section with featured opinion articles"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

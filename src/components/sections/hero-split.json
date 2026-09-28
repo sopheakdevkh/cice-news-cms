@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_hero_splits",
+  "info": {
+    "displayName": "Hero Split",
+    "icon": "layout",
+    "description": "Editorial split showcase card with article relation"
+  },
+  "options": {},
+  "attributes": {
+    "badgeLabel": {
+      "type": "string"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "READ MORE →"
+    }
+  }
+}

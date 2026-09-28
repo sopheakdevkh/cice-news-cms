@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_tag_items",
+  "info": {
+    "displayName": "Tag Item",
+    "icon": "tag",
+    "description": "Tag or service capability item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

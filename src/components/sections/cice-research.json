@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_cice_researches",
+  "info": {
+    "displayName": "CICE Research",
+    "icon": "briefcase",
+    "description": "Corporate research capabilities card with service tags"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "CICE Research"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "洞见柬埔寨 · 研究创造价值"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tag-item"
+    },
+    "ctaLabel": {
+      "type": "string",
+      "default": "了解更多 →"
+    },
+    "ctaUrl": {
+      "type": "string"
+    }
+  }
+}
