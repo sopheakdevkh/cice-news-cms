@@ -127,6 +127,7 @@ coverage
 .env
 .env.postgres.local
 .env.railway
+.env.render
 license.txt
 exports
 .strapi

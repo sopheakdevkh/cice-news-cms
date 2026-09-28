@@ -16,6 +16,7 @@
     "seed:categories": "node scripts/seed-category-pages.js",
     "export:db": "node scripts/export-database.js",
     "restore:db": "node scripts/restore-from-json.js",
+    "import:render": "node scripts/import-to-render.js",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
